@@ -20,11 +20,11 @@ const Header = ({ InputText, setInputText, todos, setTodos }) => {
   return (
     <div>
       <header className="header">
-        <h1>todos</h1>
+        <h1>Yapılacaklar</h1>
         <form onSubmit={submitTodoHandler}>
           <input
             className="new-todo"
-            placeholder="What needs to be done?"
+            placeholder="Haftalık Görevlerinizi Giriniz"
             autoFocus
             value={InputText}
             onChange={inputTextHandler}
